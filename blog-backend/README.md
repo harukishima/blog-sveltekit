@@ -31,6 +31,10 @@
 ```bash
 $ npm install
 ```
+## Before running
+
+- Add .env file with `DATABASE_URL="postgresql://blog:123456@localhost:5432/blog?schema=public"`
+- Change DATABASE_URL with your database
 
 ## Running the app
 
