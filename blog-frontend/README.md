@@ -14,6 +14,10 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
+## Before develop
+- Add .env file with `PUBLIC_BASE_URL = 'http://localhost:3000'`
+- Change PUBLIC_BASE_URL to your api server
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
